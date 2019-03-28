@@ -5,5 +5,5 @@ class TwitterClient:
 		return 1
     def tw_authentication():
 		#Authenticate Twitter API connection
-		return 1
+		return 0
         
