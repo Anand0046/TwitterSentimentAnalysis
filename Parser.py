@@ -4,7 +4,7 @@ class Parser:
     
     
     def get_Tweets():
-		#function to get the tweets
+		#function to get the tweet
         return 1
     def clean_Tweets():
 		#function to clean up tweets
