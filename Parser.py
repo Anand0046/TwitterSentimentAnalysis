@@ -8,7 +8,7 @@ class Parser:
         return 1
     def clean_Tweets():
 		#function to clean up tweets
-		return 1
+		return 
         
    
         
