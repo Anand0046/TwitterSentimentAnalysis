@@ -3,7 +3,7 @@ from textblob import TextBlob
 import matplotlib.pyplot as plt
 
 
-class SentimentAnalysis:
+class SentimentAnalysis
 
     def __init__(self):
         self.tweets = []
