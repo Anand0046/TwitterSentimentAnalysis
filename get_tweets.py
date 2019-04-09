@@ -74,14 +74,7 @@ class SentimentAnalysis
         csvWriter.writerow(self.tweetText)
         csvFile.close()
 
-        # finding average of how people are reacting
-        positive = self.percentage(positive, NoOfTerms)
-        wpositive = self.percentage(wpositive, NoOfTerms)
-        spositive = self.percentage(spositive, NoOfTerms)
-        negative = self.percentage(negative, NoOfTerms)
-        wnegative = self.percentage(wnegative, NoOfTerms)
-        snegative = self.percentage(snegative, NoOfTerms)
-        neutral = self.percentage(neutral, NoOfTerms)
+   
 
         # finding average reaction
         polarity = polarity / NoOfTerms
