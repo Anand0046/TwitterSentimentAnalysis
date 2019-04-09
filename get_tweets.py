@@ -9,7 +9,7 @@ class SentimentAnalysis
         self.tweets = []
         self.tweetText = []
 
-    def DownloadData(self):
+    def DownloadData(self)
         # authenticating
         consumerKey = 'vWq7a5D8TrtPf5KxJXjRnqLAJ'
         consumerSecret = 'VsACT3qYoHhzWQKOsLQPrdMFgj9xbdXJjV2IxL9TySakQy8rYd'
@@ -110,7 +110,15 @@ class SentimentAnalysis
         print(str(neutral) + "% people thought it was neutral")
 
         self.plotPieChart(positive, wpositive, spositive, negative, wnegative, snegative, neutral, searchTerm, NoOfTerms)
-
+print()
+        print("Detailed Report: ")
+        print(str(positive) + "% people thought it was positive")
+        print(str(wpositive) + "% people thought it was weakly positive")
+        print(str(spositive) + "% people thought it was strongly positive")
+        print(str(negative) + "% people thought it was negative")
+        print(str(wnegative) + "% people thought it was weakly negative")
+        print(str(snegative) + "% people thought it was strongly negative")
+        print(str(neutral) + "% people thought it was neutral")
 
     def cleanTweet(self, tweet):
         # Remove Links, Special Characters etc from tweet
