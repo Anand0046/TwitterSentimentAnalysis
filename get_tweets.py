@@ -1,5 +1,5 @@
 import sys,tweepy,csv,re
-from textblob import TextBlob
+from textblob import TextBlo
 import matplotlib.pyplot as plt
 
 
