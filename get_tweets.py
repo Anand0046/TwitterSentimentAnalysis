@@ -1,4 +1,4 @@
-import sys,tweepy,csv,re
+import sys,tweepy,csv,r
 from textblob import TextBlo
 import matplotlib.pyplot as plt
 
