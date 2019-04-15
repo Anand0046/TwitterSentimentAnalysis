@@ -1,12 +1,5 @@
 import sys,tweepy,csv,r
-from textblob import TextBlo
-import matplotlib.pyplot as plt
-
-
-class S
-
-    def __init__(self)
-        self.tweets = []
+from textblob import TextBl
         self.tweetText = []
 
     def DownloadData(self)
