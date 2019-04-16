@@ -6,11 +6,7 @@ from textblob import TextBl
         # authenticating
         consumerKey = 'vWq7a5D8TrtPf5KxJXjRnqLAJ'
         consumerSecret = 'VsACT3qYoHhzWQKOsLQPrdMFgj9xbdXJjV2IxL9TySakQy8rYd'
-        accessToken = '1088986878114754561-W94ZCF5m9EsUIgzgKku5NGkACjbQIH'
-        accessTokenSecret = 'kJtYM6TsJrpr70GNMjjcI4XeeyA7kLO9VHXw6iLUrIeTD'
-        auth = tweepy.OAuthHandler(consumerKey, consumerSecret)
-        auth.set_access_token(accessToken, accessTokenSecret)
-        api = tweepy.API(auth)
+        
 
         # input for term to be searched and how many tweets to search
         searchTerm = input("Enter Keyword/Tag to search about: ")
