@@ -4,7 +4,7 @@ from textblob import TextBl
 
     def DownloadData(self)
         # authenticating
-        consumerKey = 'vWq7a5D8TrtPf5KxJXjRnqLAJ'
+       
         consumerSecret = 'VsACT3qYoHhzWQKOsLQPrdMFgj9xbdXJjV2IxL9TySakQy8rYd'
         
 
