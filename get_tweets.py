@@ -8,15 +8,7 @@ from textblob import TextBl
         consumerSecret = 'VsACT3qYoHhzWQKOsLQPrdMFgj9xbdXJjV2IxL9TySakQy8rYd'
         
 
-        # input for term to be searched and how many tweets to search
-        searchTerm = input("Enter Keyword/Tag to search about: ")
-        NoOfTerms = int(input("Enter how many tweets to search: "))
-
-        # searching for tweets
-        self.tweets = tweepy.Cursor(api.search, q=searchTerm, lang = "en").items(NoOfTerms)
-
-        # Open/create a file to append data to
-        csvFile = open('result.csv', 'a')
+      
 
         # Use csv writer
         csvWriter = csv.writer(csvFile)
