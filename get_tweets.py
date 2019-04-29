@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 class SentimentAnalysis:
 
     def __init__(self):
-        self.tweets = []
+        self.tweets = [
         self.tweetText = []
 
     def DownloadData(self):
