@@ -7,6 +7,6 @@ class DB_Storage:
 		#send/receive response
 		return 1
     def Data_Storage():
-        #function to store data
+        #function to store data which user enter
 		return 1
         
