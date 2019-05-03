@@ -13,3 +13,5 @@ Process:
 2. Enter the hashtag
 3. Enter number of Tweets ( Max 200)
 4. Hit Enter
+
+Note: You can also do test cases to check for output.
