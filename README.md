@@ -2,10 +2,10 @@
 
 Requirements :
 
-Python 3 
-Python Editor and COnsole like PyCharm
-Internet Connection.
-All the Python files need to be in the same folder.
+1. Python3
+2. Python IDE like PyCharm
+3. Internet Connection.
+4. Download and keep all the Python files needed in the same folder.
 
 Process:
 
