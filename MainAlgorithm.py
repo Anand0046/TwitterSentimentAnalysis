@@ -9,7 +9,7 @@ class TwitterClient(object):
     '''
     def __init__(self): 
         ''' 
-        Class constructor or initialization method. 
+        Class constructor or initialization method 
         '''
         # keys and tokens from the Twitter Dev Console 
         consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXX'
