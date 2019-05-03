@@ -17,7 +17,7 @@ class TwitterClient(object):
         access_token = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXX'
         access_token_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXX'
   
-        # attempt authentication 
+        # attempt authentication if there is any error will get to know what is it about.
         try: 
             # create OAuthHandler object 
             self.auth = OAuthHandler(consumer_key, consumer_secret) 
