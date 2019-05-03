@@ -6,9 +6,7 @@ from textblob import TextBl
         # authenticating
        
         consumerSecret = 'VsACT3qYoHhzWQKOsLQPrdMFgj9xbdXJjV2IxL9TySakQy8rYd'
-        
-
-      
+            
 
         # Use csv writer
         csvWriter = csv.writer(csvFile)
