@@ -55,7 +55,7 @@ class TwitterClient(object):
         ''' 
         Main function to fetch tweets and parse them. 
         '''
-        # empty list to store parsed tweets 
+        # empty list to store parsed tweets ,will clean so that it refereshed.
         tweets = [] 
   
         try: 
