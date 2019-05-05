@@ -1,4 +1,4 @@
-# Dataset of Positive to Negative words
+# Dataset of Positive to Negative words record for value.
 # Positive-Score <tab> Negative-Score <tab> Synset
 1	0	true#a#2 real#a#4
 1	0	illustrious#a#1 famous#a#1 far-famed#a#1 noted#a#1 celebrated#a#1 notable#a#2 renowned#a#1 famed#a#1
