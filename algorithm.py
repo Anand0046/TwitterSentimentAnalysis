@@ -26,7 +26,7 @@ from textblob import TextBl
         # iterating through tweets fetched
         for tweet in self.tweets:
             print (tweet.text)
-            #Append to temp so that we can store in csv later. I use encode UTF-8
+            #Append to temp so that we can store in csv later. I used encode UTF-8
             self.tweetText.append(self.cleanTweet(tweet.text).encode('utf-8'))
             # print (tweet.text.translate(non_bmp_map))    #print tweet's text
             analysis = TextBlob(tweet.text)
