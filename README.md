@@ -14,4 +14,4 @@ Process:
 3. Enter number of Tweets ( Max 200)
 4. Hit Enter
 
-Note: You can also do test cases to check for output.
+Note: You can also do edge case and corner case to check for output.
