@@ -3,7 +3,7 @@ from textblob import TextBl
         self.tweetText = []
 
     def DownloadData(self)
-        # authenticating
+        # authenticate
        
         consumerSecret = 'VsACT3qYoHhzWQKOsLQPrdMFgj9xbdXJjV2IxL9TySakQy8rYd'
             
