@@ -1,7 +1,7 @@
 def buidTraining_DataSet(DataFile, tweet_DataFile):
     import csv
     import time
-    
+    #taking sentence from file and seperating it.
     data = []
     
     with open(DataFile,'rb') as csvfile:
