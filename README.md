@@ -1,2 +1,0 @@
-# TwitterSentimentA
-nnkk
