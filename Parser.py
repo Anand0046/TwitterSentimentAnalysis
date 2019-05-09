@@ -1,20 +1,8 @@
     #!/usr/bin/env python
 
 """
-Naive bayes implementation in Python from scratch.
-
-Python Version: 3.6.3
-
-Naive Bayes implementation.
-Maximizes the log likelihood to prevent underflow,
-and applies Laplace smoothing to solve the zero observations problem.
-
-API inspired by SciKit-learn.
-
-Sources:
-  * https://machinelearningmastery.com/naive-bayes-classifier-scratch-python/
-  * https://github.com/scikit-learn/scikit-learn/blob/master/sklearn/naive_bayes.py
-  * https://github.com/ashkonf/HybridNaiveBayes
+Naive bayes implementation in Python
+Classifier Algorithm
 """
 
 from datasets import load_loan_defaulters
