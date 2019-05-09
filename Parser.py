@@ -19,7 +19,7 @@ def main():
     clf.fit(design_matrix, target_values)
     prediction = clf.predict_record([1, 1, 50700])
     negation_word = " not " if prediction == 0.0 else ""
-    print("We predict this person will" + negation_word + "default on their loans.")
+    print("testing negative sentiment" + negation_word + "of the tweet")
 
 
 def extract_features(feature_vector):
